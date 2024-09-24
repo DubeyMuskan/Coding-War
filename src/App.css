@@ -1,0 +1,84 @@
+
+ body {
+  font-family: 'Roboto', sans-serif; 
+  background-color: #e8ebee;
+  margin: 0;
+}
+
+.bg-white {
+  background-color: #e8ebee;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+button {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05);
+}
+
+.winner {
+  background-color: #e8ebee; 
+  border: 1px solid #e8ebee;
+}
+
+.selected {
+  background-color: #e8ebee; 
+}
+
+.solution-input {
+  width: 60%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #e8ebee;
+  border-radius: 4px;
+}
+
+.solution-input:focus {
+  outline: none;
+  border-color: #80bdff;
+}
+
+.timer {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #dc3545; 
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa; 
+  margin: 0; 
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px; 
+  padding: 20px;
+  background: linear-gradient(to right, #0056b3, #e8ebee);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-input {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.login-input:focus {
+  border-color: #f8d839;
+  box-shadow: 0 0 5px rgba(248, 216, 57, 0.5);
+}
